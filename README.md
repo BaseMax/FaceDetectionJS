@@ -6,8 +6,10 @@
 
 ## Demo
 
-[![](https://user-images.githubusercontent.com/31125521/46063404-00928b00-c16d-11e8-8f29-e9c50afd2bc8.jpg)](https://basemax.github.io/FaceDetectionJS/)
 [![](https://user-images.githubusercontent.com/31125521/47383860-ea450400-d705-11e8-9880-d5d15d952661.gif)](https://basemax.github.io/FaceDetectionJS/)
+
+[![](https://user-images.githubusercontent.com/31125521/46063404-00928b00-c16d-11e8-8f29-e9c50afd2bc8.jpg)](https://basemax.github.io/FaceDetectionJS/)
+
 [![](https://user-images.githubusercontent.com/31125521/47384002-41e36f80-d706-11e8-8cd9-b3102c1bee67.png)](https://basemax.github.io/FaceDetectionJS/)
 
 Thanks to **Vincent Mühler** since without [`face-api.js`](https://github.com/justadudewhohacks/face-api.js/) this project would not exist.
