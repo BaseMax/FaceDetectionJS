@@ -8,11 +8,15 @@ const startVideo = () => {
 	)
 }
 
+// NOTE: YOU NEED TO CHANGE `modelPath` prefix
+const modelPath = "/FaceDetectionJS/models"; // Only for GitHub pages hosting
+// const modelPath = "/models"; // Good if you want to host on your (local) server/system
+
 Promise.all([
-	faceapi.nets.tinyFaceDetector.loadFromUri("/models"),
-	faceapi.nets.faceLandmark68Net.loadFromUri("/models"),
-	faceapi.nets.faceRecognitionNet.loadFromUri("/models"),
-	faceapi.nets.faceExpressionNet.loadFromUri("/models")
+	faceapi.nets.tinyFaceDetector.loadFromUri(modelPath),
+	faceapi.nets.faceLandmark68Net.loadFromUri(modelPath),
+	faceapi.nets.faceRecognitionNet.loadFromUri(modelPath),
+	faceapi.nets.faceExpressionNet.loadFromUri(modelPath)
 ]).then(startVideo)
 
 video.addEventListener("play", () => {
