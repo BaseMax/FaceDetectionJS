@@ -6,6 +6,8 @@ A JS webpage to detect faces and its landmark and expressions powered by face-ap
 
 **Demo:** https://basemax.github.io/FaceDetectionJS/
 
+> Note: Since for face detections we need to load and download models, so if your internet speed is not good you need to wait some seconds.
+
 ## Demo
 
 [![Face Detection JS](https://user-images.githubusercontent.com/31125521/47383860-ea450400-d705-11e8-9880-d5d15d952661.gif)](https://basemax.github.io/FaceDetectionJS/)
